@@ -1,0 +1,23 @@
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user{
+    display: flex;
+    border: solid gray 2px;
+    width: 400px;
+    gap: 20px;
+    background-color:rgb(236, 120, 120);
+   margin-top: 20px;
+}
+.user-avatar img{
+    width: 100px;
+    height: 110px;
+    object-fit:cover;
+}
+
+.userinfo p{
+    padding-top:9px;
+}
